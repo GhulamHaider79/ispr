@@ -17,7 +17,7 @@
 .header3{
     width: 20%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     padding: 0.010rem;
 }
 .header4{
@@ -65,4 +65,34 @@ form.exmple button{
     font-size: 0.8rem;
     font-weight: 500;
     border-color: #fec325;
+}
+.header-second{
+    background-color: #1b1719;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.header-second>.logo{
+    width: 13%;
+    margin-top: 2rem;
+}
+.header-second>.navbar{
+    width: 75%;
+    margin-top: 2rem;
+}
+.header-second>.navbar>ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.navbar>ul>li{
+    margin-top: 1rem;
+    list-style: none;
+    border-left: 1px solid #7b7575;
+}
+.navbar>ul>li>a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    text-transform: uppercase;
 }

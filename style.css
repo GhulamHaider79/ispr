@@ -74,25 +74,27 @@ form.exmple button{
 }
 .header-second>.logo{
     width: 13%;
-    margin-top: 2rem;
 }
 .header-second>.navbar{
     width: 75%;
-    margin-top: 2rem;
+
 }
 .header-second>.navbar>ul{
     display: flex;
     justify-content: space-evenly;
-    margin: auto;
+    
 }
 .navbar>ul>li{
-    margin-top: 1rem;
     list-style: none;
-    border-left: 1px solid #7b7575;
+    border-left: 1px solid #3e3e3e;
 }
 .navbar>ul>li>a{
-    color: #fff;
+    font-family: sans-serif;
+    color: #f7f7f7;
     text-decoration: none;
-    padding: 1rem;
     text-transform: uppercase;
+    line-height: 4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0 1rem;
 }

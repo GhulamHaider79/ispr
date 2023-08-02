@@ -98,3 +98,80 @@ form.exmple button{
     font-weight: 600;
     padding: 0 1rem;
 }
+.section-content{
+    display: flex;
+    justify-content: center;
+}
+.sec-content1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.press{
+    display: flex;
+    margin-top: 3rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e3e3e3;
+    padding: 1rem 0rem;
+}
+.press>a{
+    margin-left: 15rem;
+}
+.press--photo{
+    display: flex;
+    justify-content: space-between;
+}
+.press-photo{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+.press-photo>span{
+    margin-top: 0.5rem;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.press-photo>h4{
+    margin-top: 0.5rem;
+}
+.press-photo>p{
+    margin-top: 0.5rem;
+    text-align: justify;
+    max-width: 20rem;
+    
+}
+.press-photo1{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+.press-photo1>span{
+    margin-top: 0.5rem;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.press-photo1>h4{
+    margin-top: 0.5rem;
+}
+.press-photo1>p{
+    margin-top: 0.5rem;
+    text-align: justify;
+    max-width: 20rem;
+}
+.sec-content2{
+    width: 40%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.sec-image{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-image2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
